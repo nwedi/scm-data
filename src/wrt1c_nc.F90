@@ -245,8 +245,8 @@ call ncdf_varwrite1c (incid, 1, istart1,icount1, 'shf',             ILOCATION%PP
 call ncdf_varwrite1c (incid, 1, istart1,icount1, 'ict',             ILOCATION%PP%plakeict)
 call ncdf_varwrite1c (incid, 1, istart1,icount1, 'icd',             ILOCATION%PP%plakeicd)
 
-call ncdf_varwrite1c (incid, 1, istart1,icount1, 'cldiff',          ILOCATION%PP%pwetlf)
-call ncdf_varwrite1c (incid, 1, istart1,icount1, 'vegdiff',         ILOCATION%PP%purbv)
+call ncdf_varwrite1c (incid, 1, istart1,icount1, 'cwe',             ILOCATION%PP%pwetlf)
+call ncdf_varwrite1c (incid, 1, istart1,icount1, 'cur',             ILOCATION%PP%purbv)
 
 !        5.   write column variables.
 

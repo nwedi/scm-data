@@ -325,8 +325,8 @@ else
   call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, 'ict'    , 'Lake ice temperature', 'K')
   call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, 'icd'    , 'Lake ice depth', 'm')
 
-  call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, 'cldiff', 'Wetland fraction', '1')
-  call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, 'vegdiff', 'Urban cover', '1')
+  call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, 'cle'    , 'Wetland cover', '1')
+  call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, 'cur'    , 'Urban cover', '1')
 
 !   call ncdf_varsetup1c (incid, iaccur, 1, ntimdid, &
 !    'emiss'           ,'Background LW Emissivity'     ,'1')
